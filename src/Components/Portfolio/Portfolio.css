@@ -1,0 +1,21 @@
+.card #overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #1ABC9C;
+   opacity: 0;
+   transition: 1s;
+}
+.card #overlay:hover{
+  opacity: .9;
+  cursor: pointer;
+}
+.form-control{
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 1px solid black;
+}
+.form-control:focus{
+  border-color: black;
+  box-shadow: none;
+}

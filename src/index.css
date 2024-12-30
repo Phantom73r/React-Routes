@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: #2C3E50;
+}
+ul li a{
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+background-color: #1ABC9C;
+color: white;
+}
+.navbar-nav .nav-link{
+    color: white;
+    border-radius: 12px;
+    margin: 0 20px;
+    font-weight: 700;
+}
+
+.line, .line1{
+    width: 6.2rem;
+    height: 5px;
+    border-radius: 12px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+}
+.line1{
+    top: 50%;
+    right: 10px;
+}
+#icons i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #2C3E50;
+    color: white;
+    width: 100%;
+    height: fit-content;
+    padding-top: 5rem;
+}
+#copyRight{
+    background-color: #17212A;
+}
+.w-20{
+    width: 20%;
+}
